@@ -1,0 +1,602 @@
+@import url(./fonts.css);
+
+
+:root{
+    --white: white;
+    --gray-invisible:rgba(128, 128, 128, 0.116);
+    --any-cards:#15171B;
+    --green:#00D162;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Styrene A Web";
+    text-decoration: none;
+}
+
+.container{
+    width: 1250px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: black;
+}
+
+
+.section-1{
+    background-image: url(../assets/images/home-page-back.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+}
+
+.section-1 header{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-1 header b{
+    font-size: 15px;
+    color: var(--white);
+}
+
+.section-1 header img{
+    width: 22px;
+}
+
+.section-1 .artel-logo{
+    width: 400px;
+    display: flex;
+    margin: 0 auto;
+    padding: 130px 0;
+}
+
+
+
+.section-1 .social-media{
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding:  0 0 40px;
+}
+
+.section-1 .social-media .youtube{
+    width: 25px;
+}
+.section-1 .social-media .facebook{
+    width: 16px;
+}
+.section-1 .social-media .tiktok{
+    width: 20px;
+}
+.section-1 .social-media .telegram{
+    width: 24px;
+}
+.section-1 .social-media .instagram{
+    width: 23px;
+}
+
+.section-1 .lang{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: -20px;
+}
+
+.section-1 .lang a{
+    display: flex;
+    font-size: 8px;
+    color: gray;
+    background-color: black;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 900;
+}
+
+.section-1 .lang .active{
+    background-color: var(--white);
+    color: black;
+}
+
+
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-2{
+    display: flex;
+    margin-top: 100px;
+}
+.section-2 .container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.section-2 .first-pic img{
+    width: 250px;
+}
+
+.section-2 .card{
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 350px;
+    transition: all 0.5s ease;
+    background-color: var(--any-cards);
+}
+
+.section-2 .card:hover{
+    box-shadow: 0 0 30px var(--green);
+}
+
+#a-card-1{
+    background-image: url(/assets/images/page-2\ 1-card........svg);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+}
+#a-card-1 img{
+    width: 250px;
+}
+
+
+
+
+
+
+.card .number{
+    color: var(--green);
+    font-size: 30px;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.card h2{
+    font-size: 40px;
+    color: var(--white);
+    margin-right: auto;
+}
+.card p{
+    font-size: 16px;
+    font-weight: 200;
+    color: var(--white);
+    margin-top: 10px;
+}
+.card button{
+    background-color: transparent;
+    color: var(--white);
+    border: none;
+    margin-top: auto;
+    padding-top: 30px;
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-3{
+    margin-top: 200px;
+}
+
+.section-3 .starting{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    color: var(--white);
+    font-size: 17px;
+    font-weight: 200;
+    gap: 10px;
+}
+.section-3 .starting img{
+    width: 430px;
+    height: 50px;
+}
+
+.section-3 .row{
+    margin-top: 50px;
+}
+.section-3 .others{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 100px;
+    background-color: var(--any-cards);
+    border-radius: 4px;
+    background-image: url(../assets/images/page-2\ 1-card........svg);
+    background-repeat: no-repeat;
+    background-position: -100;
+    background-size: 700px;
+}
+.section-3 .others img{
+    margin: 0 auto;
+    width: 140px;
+}
+
+
+.section-3 .others-text{
+    color: var(--white);
+    width: 340px;
+    font-weight: 200;
+}
+.section-3 .others-text .number{
+    color: var(--green);
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+.section-4{
+    margin-top: 200px;
+    background-image: url(../assets/images/page-2\ 1-card........svg);
+    background-position: 700px 80px;
+    background-repeat: no-repeat;
+    background-size: 700px;
+}
+.section-4 .row .starting{
+    width: 350px;
+}
+.section-4 .animation{
+    position: relative;
+}
+.section-4 .a-animation{
+    width: 60px;
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 45px;
+}
+.section-4 .o-animation{
+    width: 150px;
+    animation-name: spin;
+    transition: all 5s ease;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-4 .card{
+    position: relative;
+    background: linear-gradient(180deg , #2FAC73,#15171B);
+    width: 49%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.section-4 .card img{
+    width: 600px;
+    transition: all 0.5s ease;
+}
+
+.section-4 .card:hover img{
+    transform: scale(0.9);
+    z-index: -1;
+}
+
+.section-4 .card .up{
+    position: absolute;
+    transform: rotate(-90deg);
+    width: 200px;
+    top: -150px;
+    left: 430px;
+    transition: all 0.5s ease;
+
+}
+.section-4 .card:hover .up{
+    margin-top: 300px;
+}
+
+.section-4 .card:hover{
+    opacity: 0.9;
+    box-shadow: 0 0 50px var(--green);
+}
+
+.section-4 .card .down-b{
+    font-size: 30px;
+    position: absolute;
+    top: 710px;
+    left: 50px;
+    color: var(--white);
+    transition: all 0.5s ease;
+}
+.section-4 .card .down-p{
+    top: 750px;
+    left: 50px;
+    width: 400px;
+    position: absolute;
+    transition: all 0.5s ease;
+
+}
+.section-4 .card:hover .down-p{
+    margin-top: -170px;
+}
+.section-4 .card:hover .down-b{
+    margin-top: -170px;
+}
+
+
+
+.section-4 .card .left{
+    font-size: 18px;
+}
+
+
+
+.section-4 #card-2{
+    background: linear-gradient(180deg, #96ABD8,#15171B);
+}
+.section-4 #card-2:hover{
+    box-shadow: 0 0 50px #96ABD8;
+}
+
+
+
+
+
+
+
+.section-4 #row-2{
+    margin-top: 30px;
+}
+
+
+.section-4 #row-2 #card-3{
+    background: linear-gradient(180deg, #FB6169,#15171B);
+}
+.section-4 #row-2 #card-3:hover{
+    box-shadow: 0 0 50px #FB6169;
+}
+
+.section-4 #row-2 #card-4{
+    background: linear-gradient(180deg,#C994B6,#15171B);
+}
+.section-4 #row-2 #card-4:hover{
+    box-shadow: 0 0 50px #C994B6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    margin-top: 50px;
+    background-color: #15171B;
+}
+
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+footer .starting{
+    height: 100px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+footer .starting img{
+    /* margin: 0 auto; */
+    width: 500px;
+}
+footer .text h2,p{
+    font-weight: 200;
+    color: var(--white);
+}
+
+footer .text{
+    width: 400px;
+}
+
+footer .text a{
+    color: var(--green);
+}
+
+
+footer .text h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+footer .ending{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+button{
+    cursor: pointer;
+}
+
+
+.mobile{
+    display: none;
+}
+
+@media (max-width:550px){
+
+
+    .section-1 .row{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+    .social-media{
+        margin-right: auto;
+    }
+    .lang{
+        margin-left: auto;
+    }
+    .row{
+        flex-wrap: wrap;
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container{
+        width: 500px;
+    }
+
+
+    .others{
+        display: flex;
+        width: 220px;
+    }
+    .others img{
+        position: absolute;
+    }
+    .section-3 .row{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .others-text{
+        width: 200px;
+    }
+    .others-text p{
+        width: 400px;
+    }
+
+    .section-2 .card{
+        width: 480px;
+
+    }
+    #lap-top{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+    }
+    .lap-top{
+        display: none;
+    }
+
+
+
+    .section-4 .card img{
+        width: 400px;
+    }
+    .section-4 .card{
+        width: 95%;
+        height: 500px;
+    }
+
+    .section-4 .starting{
+        position: absolute;
+        left: 1px;
+        transform: scale(0.8);
+    }
+    .section-4 .animation{
+        margin-left: auto;
+        margin-top: -50px;
+    }
+
+}
